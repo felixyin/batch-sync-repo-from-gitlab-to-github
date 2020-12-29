@@ -3,9 +3,6 @@ import re
 import os
 
 
-# 此功能未完成，请参考一下文章自己实现
-# https://blog.csdn.net/still_night/article/details/104837676
-
 def batch_push_to_github(github_token, projects):
     g = Github(github_token)  # token
     user = g.get_user()
