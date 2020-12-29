@@ -15,9 +15,6 @@ import subprocess, shlex
 import time
 import os
 
-
-#     gitlabAddr = '192.168.3.10:30000'
-#     gitlabToken = 'ymsSzkQmX3Y_14KyyBJ6'
 # 会自动创建gitlab文件夹用于存放所有项目
 def batch_clone_from_gitlab(gitlabAddr, gitlabToken):
     for index in range(10):
